@@ -57,9 +57,9 @@ function removeFromCart(item) {
       k = 1;
       cart.splice(i, 1);
       return cart;
-    } else {
-      k = 0;
-    }
+    } 
+      
+    
   }
 
   if (k === 0) {
