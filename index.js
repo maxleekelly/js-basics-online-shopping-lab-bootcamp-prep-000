@@ -73,7 +73,8 @@ function placeOrder(cardNumber) {
   if (isNaN(cardNumber)) {
     console.log("Sorry, we don't have a credit card on file for you.");
   } else {
-    console.log()
+    var cartTotal = total();
+    console.log(`Your total cost is $${cartTotal}, which will be charged to the card ${cardNumber}.`);
   }
   
 }
